@@ -35,6 +35,12 @@ h1 {
 .TodoForm {
   width: 100%;
 }
+@media screen and (max-width: 600px) {
+  
+  .TodoForm {
+    width: 80% ;
+  }
+}
 
 .todo-input {
   outline: none;
